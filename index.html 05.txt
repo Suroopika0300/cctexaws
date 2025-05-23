@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .resume-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 20px;
+    }
+
+    .buy-button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .buy-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+    <h1>Download My Professional Resume</h1>
+    <p>Get a well-designed resume for job applications.</p>
+    <div class="price">Only ₹199</div>
+    <!-- Replace the href link below with your actual payment link (e.g., Razorpay, PayPal, etc.) -->
+    <a href="YOUR_PAYMENT_GATEWAY_LINK" class="buy-button">Buy Now</a>
+  </div>
+
+</body>
+</html>
